@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Página de cadastro</title>
+</head>
+
+<body>
+    <!--Background-->
+    <div class="background"><video src="video/background.mp4" autoplay loop muted></video></div>
+    <section class="cadastro">
+        <h1>Cadastre-se</h1>
+        <form id="formCadastro" action="cadastro" method="post">
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+            <label>Gênero:</label>
+            <input type="radio" name="genero" value="M" title="Masculino"> M
+            <input type="radio" name="genero" value="F" title="Feminino"> F
+
+            <label for="nascimento">Nascimento:</label>
+            <input type="date" id="nascimento" name="nascimento" title="Data de nascimento" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+
+            <label for="contato">Contato:</label>
+            <input type="tel" id="contato" name="contato" placeholder="contato" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+
+            <label for="confirmaSenha">Confirmar senha:</label>
+            <input type="password" id="confirmaSenha" name="confirmaSenha" placeholder="Confirme sua senha" required>
+
+            <button type="submit">enviar</button>
+            <button type="reset">limpar</button>
+        </form>
+    </section>
+
+</body>
+<script src="script.js"></script>
+
+</html>

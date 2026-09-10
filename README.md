@@ -1,7 +1,14 @@
-# Página de Cadastro
+<p align="center">
+  <img src="img/logo.svg" alt="Página de Cadastro" width="620">
+</p>
 
-Interface de cadastro responsiva, construída com HTML e CSS puros — sem
-framework e sem JavaScript. O foco do projeto é layout, hierarquia visual e
+<p align="center">
+  <strong>Interface de cadastro responsiva, em HTML e CSS puros</strong>
+</p>
+
+---
+
+Sem framework e sem JavaScript. O foco do projeto é layout, hierarquia visual e
 comportamento do formulário em telas pequenas.
 
 ## Stack

@@ -1,38 +1,35 @@
-# 📝 Sistema de Cadastro
+# Página de Cadastro
 
-Uma interface de cadastro moderna e responsiva desenvolvida com HTML e CSS, com foco em usabilidade e organização visual.
+Interface de cadastro responsiva, construída com HTML e CSS puros — sem
+framework e sem JavaScript. O foco do projeto é layout, hierarquia visual e
+comportamento do formulário em telas pequenas.
 
-![preview](./assets/preview.gif)
+## Stack
 
-## 🛠️ Tecnologias
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-- HTML5
-- CSS3
+## O que tem aqui
 
-## 🎯 Sobre o projeto
+- Formulário de cadastro com campos rotulados e validação nativa do HTML
+- Vídeo em segundo plano (`video/background.mp4`) com sobreposição legível
+- Layout responsivo, do desktop ao celular
 
-Este projeto consiste em uma página de cadastro com layout limpo e intuitivo, desenvolvida para praticar conceitos de estruturação e estilização no front-end.
+## Escopo
 
-O foco principal está na experiência do usuário (UI/UX) e na criação de um formulário visualmente agradável.
+Este é um exercício de **interface**: não há back-end, persistência nem
+validação em JavaScript. O envio do formulário não processa dados.
 
-## ✨ Funcionalidades
-
-- Formulário de cadastro
-- Campos organizados e estilizados
-- Layout moderno
-- Design responsivo
-
-## ⚠️ Observação
-
-Este projeto atualmente não possui integração com JavaScript ou backend, sendo apenas uma interface visual.
-
-## ▶️ Como executar
+## Como rodar
 
 ```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/seu-repo.git
+git clone https://github.com/RyanZine/pagina-de-cadastro.git
+cd pagina-de-cadastro
+```
 
-# Acesse a pasta
-cd seu-repo
+Abra o `index.html` no navegador.
 
-# Abra o arquivo index.html no navegador
+---
+
+Feito por [Ryan Zinedine](https://github.com/RyanZine) ·
+[portfólio](https://portfolio-ryanzine.vercel.app)
